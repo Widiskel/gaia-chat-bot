@@ -103,7 +103,7 @@ export default class Core extends API {
       };
       logger.info(`Sending Chat to ${node.subdomain}`);
       logger.info(`Message : ${initialChat}`);
-      logger.info(`Waiting for ${node.subdomain} to response`);
+      logger.info(`Waiting for ${node.subdomain} to response\n`);
 
       const res = await this.fetch(
         `https://${node.subdomain}/v1/chat/completions`,
@@ -130,7 +130,7 @@ export default class Core extends API {
         content: msg,
         role: "user",
       });
-      logger.info(`Waiting for ${node.subdomain} to response`);
+      logger.info(`Waiting for ${node.subdomain} to response\n`);
 
       const res = await this.fetch(
         `https://${node.subdomain}/v1/chat/completions`,
