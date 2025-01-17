@@ -75,20 +75,20 @@ AIRDROP - GAIANET AI
 Earn Points and get positioned for future rewards
 
 Task Details:
-➖ Visit https://gaianet.ai/ (https://gaianet.ai/reward?invite_code=Rk1JY0)
-➖ Connect New Wallet
-➖ Click Start Earning
-➖ Enter Ref Code : R6qx4U
-➖ Go to Profile
-➖ Connect All Socials
-➖ Complete All Task
-➖ Done 
+- Visit https://gaianet.ai/ (https://gaianet.ai/reward?invite_code=Rk1JY0)
+- Connect New Wallet
+- Click Start Earning
+- Enter Ref Code : R6qx4U
+- Go to Profile
+- Connect All Socials
+- Complete All Task
+- Done 
 
 Join Bot Telegram (https://t.me/gaianet_ai_bot/gaia?startapp=eyJ0Z191c2VyX2lkIjoiNTg5OTA4OTQ5MSIsImludml0ZV9jb2RlIjoiUmsxSlkwIn0=)
-➖ Login bot
-➖ Complete all task
-➖ Claim USDTs
-➖ Done
+- Login bot
+- Complete all task
+- Claim USDTs
+- Done
 
 Run Gaia Node
 
@@ -99,14 +99,14 @@ Nvidia T4 GPU Instance
 
 Setup Guide: HERE (https://docs.gaianet.ai/getting-started/quick-start/?_gl=1*1nj7df9*_ga*MjAxMzM4ODY2OS4xNzM3MDg0MDM1*_ga_V3W2HJ72V0*MTczNzA4NDAzNC4xLjEuMTczNzA4NDU5OC4wLjAuMA)
 after sucessfully setup :
-➖ Execute
+- Execute
  curl -sSf https://raw.githubusercontent.com/WasmEdge/WasmEdge/master/utils/install_v2.sh | bash -s -- -v 0.13.5 --noavx
-➖ Execute 
+- Execute 
 gaianet info
-➖ Open https://www.gaianet.ai/setting/nodes
-➖ Enter Node ID & Device ID
-➖ Open https://www.gaianet.ai/setting/gaia-api-keys
-➖ Create API Key
+- Open https://www.gaianet.ai/setting/nodes
+- Enter Node ID & Device ID
+- Open https://www.gaianet.ai/setting/gaia-api-keys
+- Create API Key
 
 ## Setup & Configure BOT
 
