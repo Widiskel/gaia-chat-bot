@@ -1,0 +1,31 @@
+{
+  "name": "gaia-chat-bot.git",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "gaia-chat mining bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "setup": "node setup.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "gaia-chat",
+    "gaia-chat-bot.git",
+    "warpcast",
+    "widiskel"
+  ],
+  "author": "Widiskel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Widiskel/gaia-chat-bot.git.git"
+  },
+  "dependencies": {
+    "ethers": "^6.13.5",
+    "https-proxy-agent": "^7.0.5",
+    "moment-timezone": "^0.5.45",
+    "node-fetch": "^3.3.2",
+    "winston": "^3.13.0"
+  }
+}
