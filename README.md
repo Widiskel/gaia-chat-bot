@@ -59,15 +59,14 @@ Gaia Chat Interaction Bot
    ........................................
 
 ```           
-                                              
-                                              
-
+                    
 Anyway i create new telegram channel just for sharing bot or airdrop, join here
 [**https://t.me/skeldrophunt**](https://t.me/skeldrophunt).
 
 
 ## BOT FEATURE
 - Auto chat completion with your node
+- Proxy Support
 
 
 ## New Airdrop

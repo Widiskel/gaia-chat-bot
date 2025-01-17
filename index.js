@@ -1,10 +1,13 @@
+import { Config } from "./config/config.js";
 import Core from "./src/core/core.js";
 import { questionList } from "./src/core/question_list.js";
 import { Helper } from "./src/utils/helper.js";
 import logger from "./src/utils/logger.js";
 
 async function operation() {
-  const core = new Core();
+  const core = new Core(
+    Config.PROXYLIST[Helper.random(Config.PROXYLIST.length - 1)]
+  );
   try {
     await core.connectWallet();
     await core.connectGaia();
@@ -16,11 +19,13 @@ async function operation() {
       if (item.status == "ONLINE") {
         const promise = (async () => {
           while (true) {
+            logger.info(``);
             await core.startSession(item);
             await core.continueSession(
               item,
-              questionList[Helper.random(0, questionList.length)]
+              questionList[Helper.random(0, questionList.length - 1)]
             );
+            logger.info(``);
           }
         })();
         promiseList.push(promise);
@@ -30,15 +35,6 @@ async function operation() {
     }
 
     await Promise.all(promiseList);
-    for (const item of core.nodes) {
-      await core.startSession(item);
-      while (true) {
-        await core.continueSession(
-          item,
-          questionList[Helper.random(0, questionList.length)]
-        );
-      }
-    }
   } catch (error) {
     let msg = `Error : `;
     msg += error.message;

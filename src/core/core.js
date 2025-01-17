@@ -6,8 +6,8 @@ import { questionList } from "./question_list.js";
 import { Helper } from "../utils/helper.js";
 
 export default class Core extends API {
-  constructor() {
-    super();
+  constructor(proxy) {
+    super(proxy);
     this.provider = new ethers.JsonRpcProvider(
       "https://base.llamarpc.com",
       8453
@@ -82,8 +82,9 @@ export default class Core extends API {
 
   async startSession(node) {
     try {
-      logger.info(`Starting New Chat Session for Node ${node.subdomain}\n`);
-      const initialChat = questionList[Helper.random(0, questionList.length)];
+      logger.info(`Starting New Chat Session for Node ${node.subdomain}`);
+      const initialChat =
+        questionList[Helper.random(0, questionList.length - 1)];
       this.currentChat = {
         model: "Llama-3.2-3B-Instruct",
         messages: [

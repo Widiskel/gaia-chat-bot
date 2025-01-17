@@ -4,7 +4,8 @@ import { Helper } from "../../utils/helper.js";
 import logger from "../../utils/logger.js";
 
 export class API {
-  constructor() {
+  constructor(proxy) {
+    this.proxy = proxy;
     this.ua = Helper.randomUserAgent();
   }
 
