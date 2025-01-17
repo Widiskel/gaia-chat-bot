@@ -66,8 +66,7 @@ Anyway i create new telegram channel just for sharing bot or airdrop, join here
 
 
 ## BOT FEATURE
-- Multi accounts with proxy support
-- Auto Complete All Quest
+- Auto chat completion with your node
 
 
 ## New Airdrop
@@ -154,8 +153,6 @@ To update bot follow this step :
 
 ## IMPORTANT NOTE (READ IT THIS IS NOT DECORATION)
 DWYOR & Always use a new wallet when running the bot, I am not responsible for any loss of assets.
-
-To get `token=xxx` , you can just login on farcaster dog web, and do inspect element > network > find request `task_main` > see the request headers > copy `Cookie` headers value ex : `token=xxx`
 
 
 ## CONTRIBUTE
