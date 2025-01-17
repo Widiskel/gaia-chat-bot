@@ -9,6 +9,7 @@ Gaia Chat Interaction Bot
   - [Join My Telegram Channel](#join-my-telegram-channel)
   - [BOT FEATURE](#bot-feature)
   - [New Airdrop](#new-airdrop)
+  - [Run Gaia Node](#run-gaia-node)
   - [Setup \& Configure BOT](#setup--configure-bot)
     - [Linux](#linux)
   - [Update Bot](#update-bot)
@@ -71,10 +72,10 @@ Anyway i create new telegram channel just for sharing bot or airdrop, join here
 
 ## New Airdrop
 
-AIRDROP - GAIANET AI
+**AIRDROP - GAIANET AI**
 Earn Points and get positioned for future rewards
 
-Task Details:
+**Task Details:**
 - Visit https://gaianet.ai/ (https://gaianet.ai/reward?invite_code=Rk1JY0)
 - Connect New Wallet
 - Click Start Earning
@@ -84,13 +85,13 @@ Task Details:
 - Complete All Task
 - Done 
 
-Join Bot Telegram (https://t.me/gaianet_ai_bot/gaia?startapp=eyJ0Z191c2VyX2lkIjoiNTg5OTA4OTQ5MSIsImludml0ZV9jb2RlIjoiUmsxSlkwIn0=)
+**Join Bot Telegram** (https://t.me/gaianet_ai_bot/gaia?startapp=eyJ0Z191c2VyX2lkIjoiNTg5OTA4OTQ5MSIsImludml0ZV9jb2RlIjoiUmsxSlkwIn0=)
 - Login bot
 - Complete all task
 - Claim USDTs
 - Done
 
-Run Gaia Node
+## Run Gaia Node
 
 System Minimum Requirements
 16GB RAM (32GB recommended)
