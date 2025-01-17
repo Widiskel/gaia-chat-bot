@@ -102,9 +102,16 @@ Nvidia T4 GPU Instance
 Setup Guide: [HERE] (https://docs.gaianet.ai/getting-started/quick-start/?_gl=1*1nj7df9*_ga*MjAxMzM4ODY2OS4xNzM3MDg0MDM1*_ga_V3W2HJ72V0*MTczNzA4NDAzNC4xLjEuMTczNzA4NDU5OC4wLjAuMA)
 after sucessfully setup :
 - Execute
+```
  curl -sSf https://raw.githubusercontent.com/WasmEdge/WasmEdge/master/utils/install_v2.sh | bash -s -- -v 0.13.5 --noavx
+```
 - Execute 
+```
+gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/node-configs/main/qwen2-0.5b-instruct/config.json
+gaianet stop
+gaianet start
 gaianet info
+```
 - Open https://www.gaianet.ai/setting/nodes
 - Enter Node ID & Device ID
 - Open https://www.gaianet.ai/setting/gaia-api-keys
