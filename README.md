@@ -76,16 +76,17 @@ Anyway i create new telegram channel just for sharing bot or airdrop, join here
 Earn Points and get positioned for future rewards
 
 **Task Details:**
-- Visit https://gaianet.ai/ (https://gaianet.ai/reward?invite_code=Rk1JY0)
+- Visit [Here](https://gaianet.ai/reward?invite_code=Rk1JY0)
 - Connect New Wallet
 - Click Start Earning
-- Enter Ref Code : R6qx4U
+- Enter Ref Code : Rk1JY0
 - Go to Profile
 - Connect All Socials
 - Complete All Task
 - Done 
 
-**Join Bot Telegram** (https://t.me/gaianet_ai_bot/gaia?startapp=eyJ0Z191c2VyX2lkIjoiNTg5OTA4OTQ5MSIsImludml0ZV9jb2RlIjoiUmsxSlkwIn0=)
+**Join Bot Telegram** https://t.me/gaianet_ai_bot/gaia?startapp=eyJ0Z191c2VyX2lkIjoiNTg5OTA4OTQ5MSIsImludml0ZV9jb2RlIjoiUmsxSlkwIn0=)
+
 - Login bot
 - Complete all task
 - Claim USDTs
@@ -98,7 +99,7 @@ System Minimum Requirements
 8GB VRAM on GPU
 Nvidia T4 GPU Instance
 
-Setup Guide: HERE (https://docs.gaianet.ai/getting-started/quick-start/?_gl=1*1nj7df9*_ga*MjAxMzM4ODY2OS4xNzM3MDg0MDM1*_ga_V3W2HJ72V0*MTczNzA4NDAzNC4xLjEuMTczNzA4NDU5OC4wLjAuMA)
+Setup Guide: [HERE] (https://docs.gaianet.ai/getting-started/quick-start/?_gl=1*1nj7df9*_ga*MjAxMzM4ODY2OS4xNzM3MDg0MDM1*_ga_V3W2HJ72V0*MTczNzA4NDAzNC4xLjEuMTczNzA4NDU5OC4wLjAuMA)
 after sucessfully setup :
 - Execute
  curl -sSf https://raw.githubusercontent.com/WasmEdge/WasmEdge/master/utils/install_v2.sh | bash -s -- -v 0.13.5 --noavx
