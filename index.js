@@ -6,7 +6,9 @@ import logger from "./src/utils/logger.js";
 
 async function operation() {
   const core = new Core(
-    Config.PROXYLIST[Helper.random(Config.PROXYLIST.length - 1)]
+    Config.PROXYLIST.length > 0
+      ? Config.PROXYLIST[Helper.random(0, Config.PROXYLIST.length - 1)]
+      : undefined
   );
   try {
     await core.connectWallet();
