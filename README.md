@@ -78,7 +78,7 @@ Earn Points and get positioned for future rewards
 - Visit [HERE](https://gaianet.ai/reward?invite_code=R6qx4U)
 - Connect New Wallet
 - Click Start Earning
-- Enter Ref Code : Rk1JY0
+- Enter Ref Code : R6qx4U
 - Go to Profile
 - Connect All Socials
 - Complete All Task
