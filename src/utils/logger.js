@@ -24,7 +24,7 @@ class Logger {
   }
 
   info(message) {
-    console.log(message);
+    console.log(message ?? "");
     this.logger.info(message);
   }
 
