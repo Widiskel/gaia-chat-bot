@@ -86,7 +86,7 @@ export default class Core extends API {
       const initialChat =
         questionList[Helper.random(0, questionList.length - 1)];
       this.currentChat = {
-        model: "Llama-3.2-3B-Instruct",
+        model: "Qwen2-0.5B-Instruct-Q5_K_M",
         messages: [
           {
             role: "system",
