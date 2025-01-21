@@ -33,7 +33,7 @@ export default class Core extends API {
     try {
       logger.info(`Connecting to Gaia Net`);
       const msg = JSON.stringify({
-        wallet_address: "0x1f0Ea6e0B3590e1Ab6C12EA0A24d3D0D9bf7707D",
+        wallet_address: this.address,
         timestamp: Date.now(),
       });
       const signedMessage = await this.wallet.signMessage(msg);
